@@ -1,5 +1,15 @@
 function chooseProduct(segment) {
-    // Add your solution here!
-}
-
-module.exports = chooseProduct;
+    switch (segment) {
+      case "Beverage":
+        return "Soda";
+      case "Fruit":
+        return "Apple";
+      case "Hygiene":
+        return "Soap";
+      default:
+        return "Unknown product";
+    }
+  }
+  
+  module.exports = chooseProduct;
+  
